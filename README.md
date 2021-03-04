@@ -3,7 +3,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MaximeBataille/tennis_tracking/main/demo.PNG" width="800" />
+  <img src="https://raw.githubusercontent.com/MaximeBataille/tennis_tracking/main/demo.PNG" width="300" />
 </p>
 
 The goal of this project is :
