@@ -1,2 +1,0 @@
-from .TrackNet import TrackNet
-
