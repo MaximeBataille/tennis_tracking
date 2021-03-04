@@ -15,12 +15,12 @@ More generally, this tool is an introduction to a more developed tool that would
 
 ## Key files
 
-* BirdEyeView.py : Class and functions to build a bird eye view animation.
-* Court.py : Function to display the contours of the court on video tracking.
-* TrackNet.py : Neural Network to detect a tennis ball in a video.
+* bird_eye_view.py : Class and functions to build a bird eye view animation.
+* court.py : Function to display the contours of the court on video tracking.
+* tracknet.py : Neural Network to detect a tennis ball in a video.
 
 * predict_video.py : To track players and the ball.
-* generate_bird_eye_view : To generate a bird eye view of tracking players.
+* generate_bird_eye_view.py : To generate a bird eye view of tracking players.
 
 <!-- GETTING STARTED -->
 ## Getting Started
