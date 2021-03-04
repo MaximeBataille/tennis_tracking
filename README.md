@@ -3,7 +3,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MaximeBataille/expected_goals/main/image.PNG" width="800" />
+  <img src="https://raw.githubusercontent.com/MaximeBataille/tennis_tracking/main/demo.PNG" width="800" />
 </p>
 
 The goal of this project is :
@@ -34,23 +34,25 @@ More generally, this tool is an introduction to a more developed tool that would
 
 ### Installation
 
-The best way to run these files is on google colab, which has a GPU.  I was unable to configure opencv to use the GPU on google colab. So the player detection part is not faster. The ball detection is. Any help is welcome to achieve this.
+Download yolov3 weights here https://pjreddie.com/darknet/yolo/ (YOLOV3-320, 45 FPS) and add it to Yolov3 directory. (This file is too heavy to push on github). Name this file yolov3.weights .
+
+The best way to run predict_video.py is on google colab, which has a GPU.  I was unable to configure opencv to use the GPU on google colab. So the player detection part is not faster. The ball detection is. Any help is welcome to achieve this.
  
-1. Clone the repo
+1. Clone the repo.
 ```sh
-git clone https://github.com/NicolasBrondin/basic-readme-template
+git https://github.com/MaximeBataille/tennis_tracking
 ```
-2. Run predict_video.py to obtain a tracking video
+2. Run predict_video.py to obtain a tracking video. (Google colab)
 ```sh
-python3 "predict_video.py"  --save_weights_path="weights_tracknet/model.1" --input_video_path="/VideoInput/video_cut.mp4" --output_video_path="/VideoOutput/video_output.avi" --n_classes=256 --path_yolo_classes="/yolov3/yolov3.txt" --path_yolo_weights="/yolov3/yolov3.weights" --path_yolo_config="/yolov3/yolov3.cfg"
-```
-
-3. Run generate_bird_eye_view.py to obtain a bird eye view
-```sh
-python3 "generate_bird_eye_view.py"
+!python3 "predict_video.py"  --save_weights_path="weights_tracknet/model.1" --input_video_path="/VideoInput/video_cut.mp4" --output_video_path="/VideoOutput/video_output.avi" --n_classes=256 --path_yolo_classes="/yolov3/yolov3.txt" --path_yolo_weights="/yolov3/yolov3.weights" --path_yolo_config="/yolov3/yolov3.cfg"
 ```
 
-4. The generated videos are in the VideoOutput directory
+3. Run generate_bird_eye_view.py to obtain a bird eye view. (Google colab)
+```sh
+!python3 "generate_bird_eye_view.py"
+```
+
+4. The generated videos are in the VideoOutput directory.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
