@@ -3,7 +3,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MaximeBataille/tennis_tracking/main/demo.PNG" width="300" />
+  <img src="https://raw.githubusercontent.com/MaximeBataille/tennis_tracking/demo.PNG" width="300" />
 </p>
 
 The goal of this project is :
@@ -13,13 +13,7 @@ The goal of this project is :
 
 More generally, this tool is an introduction to a more developed tool that would allow the analysis of tennis matches thanks to tracking data (distances covered, ball bounce zone, etc..).
 
-## Possible improvements
-
-- Obtain the coordinates of the ball thanks to a second camera and thus recognize impacts with the ground or a player's racket.
-- Detecting the contours of the court from any angle of view and any part of the court precisely in order to make the bird eye view projection.
-- Do not recognise the players as persons but as real players. This avoids the need for image processing to detect and remove ball boys/girls, for example.
-
-### Key directories
+## Key directories
 
 * BirdEyeView.py : Class and functions to build a bird eye view animation
 * Court.py : Function to display the contours of the court on video tracking
@@ -54,7 +48,12 @@ git https://github.com/MaximeBataille/tennis_tracking
 
 4. The generated videos are in the VideoOutput directory.
 
-<!-- ACKNOWLEDGEMENTS -->
+## Possible improvements
+
+- Obtain the coordinates of the ball thanks to a second camera and thus recognize impacts with the ground or a player's racket.
+- Detecting the contours of the court from any angle of view and any part of the court precisely in order to make the bird eye view projection.
+- Do not recognise the players as persons but as real players. This avoids the need for image processing to detect and remove ball boys/girls, for example.
+
 ## Acknowledgements
 
 * To track a tennis ball : Y.-C. Huang, I.-N. Liao, C.-H. Chen, T.-U. Ik, W.-C. Peng, “TrackNet: A Deep Learning Network for Tracking High-speed and Tiny Objects in Sport Applications”, Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining KDD ‘19, https://arxiv.org/pdf/1907.03698.pdf
