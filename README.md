@@ -30,7 +30,7 @@ More generally, this tool is an introduction to a more developed tool that would
 
 Download yolov3 weights here https://pjreddie.com/darknet/yolo/ (YOLOV3-320, 45 FPS) and add it to Yolov3 directory. (This file is too heavy to push on github). Name this file yolov3.weights .
 
-The best way to run predict_video.py is on google colab, which has a GPU.  I was unable to configure opencv to use the GPU on google colab. So the player detection part is not faster. The ball detection is. Any help is welcome to achieve this.
+The best way to run predict_video.py is on google colab, which has a GPU.  I was unable to configure opencv to use the GPU on google colab. So the player detection part is not faster. The ball detection is. Any help is welcome to achieve this. This link could be useful https://towardsdatascience.com/how-to-use-opencv-with-gpu-on-colab-25594379945f .
  
 1. Clone the repo.
 ```sh
