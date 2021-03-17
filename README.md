@@ -34,7 +34,7 @@ The best way to run predict_video.py is on google colab, which has a GPU.  I was
  
 1. Clone the repo.
 ```sh
-git https://github.com/MaximeBataille/tennis_tracking
+git clone https://github.com/MaximeBataille/tennis_tracking
 ```
 
 2. Put the all the repo on a Google Drive.
