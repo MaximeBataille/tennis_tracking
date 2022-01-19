@@ -41,7 +41,7 @@ git clone https://github.com/MaximeBataille/tennis_tracking
 
 3. Run predict_video.py to obtain a tracking video. (Google colab)
 ```sh
-!python3 "predict_video.py"  --save_weights_path="weights_tracknet/model.1" --input_video_path="/VideoInput/video_cut.mp4" --output_video_path="/VideoOutput/video_output.avi" --n_classes=256 --path_yolo_classes="/yolov3/yolov3.txt" --path_yolo_weights="/yolov3/yolov3.weights" --path_yolo_config="/yolov3/yolov3.cfg"
+!python3 "predict_video.py"  --save_weights_path="WeightsTracknet/model.1" --input_video_path="VideoInput/video_cut.mp4" --output_video_path="VideoOutput/video_output.avi" --n_classes=256 --path_yolo_classes="Yolov3/yolov3.txt" --path_yolo_weights="Yolov3/yolov3.weights" --path_yolo_config="Yolov3/yolov3.cfg"
 ```
 
 4. Run generate_bird_eye_view.py to obtain a bird eye view. (Google colab)
