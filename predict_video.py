@@ -63,7 +63,7 @@ width, height = 640, 360
 img, img1, img2 = None, None, None
 
 # load TrackNet model
-modelFN = tracknet
+modelFN = trackNet
 m = modelFN(n_classes, input_height=height, input_width=width)
 m.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=['accuracy'])
 m.load_weights(save_weights_path)
